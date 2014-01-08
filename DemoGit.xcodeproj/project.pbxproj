@@ -19,6 +19,7 @@
 		2E547577187E19C500E1D9D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E54755F187E19C500E1D9D5 /* UIKit.framework */; };
 		2E54757F187E19C500E1D9D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E54757D187E19C500E1D9D5 /* InfoPlist.strings */; };
 		2E547581187E19C500E1D9D5 /* DemoGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E547580187E19C500E1D9D5 /* DemoGitTests.m */; };
+		2E54758C187E1B8600E1D9D5 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54758B187E1B8600E1D9D5 /* DemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		2E54757C187E19C500E1D9D5 /* DemoGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoGitTests-Info.plist"; sourceTree = "<group>"; };
 		2E54757E187E19C500E1D9D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E547580187E19C500E1D9D5 /* DemoGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoGitTests.m; sourceTree = "<group>"; };
+		2E54758A187E1B8600E1D9D5 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		2E54758B187E1B8600E1D9D5 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				2E54756B187E19C500E1D9D5 /* AppDelegate.m */,
 				2E54756D187E19C500E1D9D5 /* Images.xcassets */,
 				2E547562187E19C500E1D9D5 /* Supporting Files */,
+				2E54758A187E1B8600E1D9D5 /* DemoViewController.h */,
+				2E54758B187E1B8600E1D9D5 /* DemoViewController.m */,
 			);
 			path = DemoGit;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E54758C187E1B8600E1D9D5 /* DemoViewController.m in Sources */,
 				2E54756C187E19C500E1D9D5 /* AppDelegate.m in Sources */,
 				2E547568187E19C500E1D9D5 /* main.m in Sources */,
 			);
