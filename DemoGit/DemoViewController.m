@@ -10,4 +10,7 @@
 
 @implementation DemoViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
 @end
